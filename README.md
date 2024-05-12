@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+- SPA - Single Page Application
+- ReactJS là 1 trong những thư viện giúp tạo ra SPA
+- Các ông lớn sử dụng SPA : gg , fb , twt
+- Các SPA khác : F8 , Shopee , 30shine
+- Cách triển khai
+- SPA : Single Page Application
+- MPA : Multi Page Application
+- So sánh
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Tốc độ
 
-## Available Scripts
+- SPA nhanh hơn khi sử dụng
+- Phần lớn tài nguyên được tải trong lần đầu
+- Trang chỉ tải thêm dữ liệu mới khi cần
+- MPA chậm hơn khi sử dụng
+- Luôn tải lại toàn bộ trang khi truy cập và chuyển hướng
 
-In the project directory, you can run:
+### Bóc tách
 
-### `npm start`
+- SPA có phần Front-end riêng biệt
+- MPA Front-end & Back-end phụ thuộc nhau nhiều hơn , được đặt trong cùng 1 dự án
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### SEO //Tối ưu hoá công cụ tìm kiếm
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- SPA không thiện với SEO như MPA
+- Trải nghiệp trên thiết bị di động tốt hơn
 
-### `npm test`
+### UX //Trải nghiệm của người dùng
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- SPA cho trải nghiệm tốt hơn , nhất là các thao tác chuyển trang
+- Trải nghiệm trên thiết bị di động tốt hơn
 
-### `npm run build`
+### Quá trình phát triển
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- SPA dễ dàng tái sử dụng code ( conponent )
+- SPA bóc tách FE & BE
+- Chia team phát triển song song
+- Phát triển thêm mobile app dễ dàng
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Phụ thuộc JS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- SPA phụ thuộc hoàn toàn vào JS
+- MPA có thể không cần JS
